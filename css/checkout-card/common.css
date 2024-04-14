@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+  background-color: #333;
+}
+
+button,
+input,
+a {
+  font: inherit;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 2rem;
+}
+
+.padding-sm {
+  padding: 2rem;
+}
+
+.box {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.gap-sm {
+  gap: 1rem;
+}
+
+.gap-md {
+  gap: 2rem;
+}
+
+.box.active {
+  border: 3px solid #ff5235;
+}
+
+.fs-sm {
+  font-size: 1.6rem;
+}
+
+.border-bottom-sm {
+  border-bottom: 1px solid #707070;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.btn-xsm {
+  border: 1px solid #707070;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.btn-xsm.active {
+  background-color: #ff5235;
+  color: #eee;
+}
+
+.btn-quantity {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: #eee;
+  border: none;
+  color: #333;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.btn-quantity.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.quantity {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #ff5235;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 2px solid #ff5235;
+  cursor: pointer;
+}

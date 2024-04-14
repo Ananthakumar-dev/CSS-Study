@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout card</title>
+    <link rel="stylesheet" href="../css/checkout-card/checkout-card.css" />
+    <link rel="stylesheet" href="../css/checkout-card/common.css" />
+  </head>
+  <body>
+    <section class="checkout-card">
+      <div class="grid product-section">
+        <figure class="product-image">
+          <a href=""
+            ><img
+              src="../images/laptop.webp"
+              alt="lenovo laptop"
+              class="product-img"
+          /></a>
+        </figure>
+
+        <div class="product-content">
+          <div class="product-header margin-bottom-md">
+            <h3>Lenovo Thinkpad E14 Gen4 (Intel) i5 - 1235u8G 512g SSD</h3>
+            <p>$150.00</p>
+          </div>
+
+          <div class="grid grid--2-columns content">
+            <div class="product-features flex">
+              <div class="product-colors padding-sm border-bottom-sm">
+                <h5 class="margin-bottom-sm fs-sm">Color</h5>
+                <div class="flex gap-sm">
+                  <div class="box box-black active"></div>
+                  <div class="box box-grey"></div>
+                  <div class="box box-orange"></div>
+                </div>
+              </div>
+
+              <div class="product-ram padding-sm border-bottom-sm">
+                <h5 class="margin-bottom-sm fs-sm">Ram</h5>
+                <div class="flex gap-sm">
+                  <button class="btn-xsm">4 GB</button>
+                  <button class="btn-xsm active">8 GB</button>
+                  <button class="btn-xsm">16 GB</button>
+                </div>
+              </div>
+
+              <div class="product-storage padding-sm">
+                <h5 class="margin-bottom-sm fs-sm">Internal Storage</h5>
+                <div class="flex gap-sm">
+                  <button class="btn-xsm active">512 GB</button>
+                  <button class="btn-xsm">1 TB</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-checkout">
+              <a href="" class="margin-bottom-sm">Delivery &darr;</a>
+
+              <div class="product-shipping flex">
+                <h3>Free Shipping</h3>
+                <p>Estimated delivery: 26-21 days</p>
+              </div>
+              <hr />
+              <div
+                class="product-quantity flex align-items-center justify-content-between margin-bottom-sm"
+              >
+                <div class="quantity-section">
+                  <h3>Quantity</h3>
+                  <div
+                    class="quantity-plus-minus flex gap-md align-items-center margin-bottom-sm"
+                  >
+                    <button class="btn-quantity minus">-</button>
+                    <span class="quantity">10</span>
+                    <button class="btn-quantity plus active">+</button>
+                  </div>
+                  <h3 class="available-quantity">100 pieces available</h3>
+                </div>
+
+                <div class="quantity-product-section">
+                  <h1>$952.5</h1>
+                </div>
+              </div>
+              <hr />
+              <div class="add-to-cart flex gap-md">
+                <button class="btn-lg">Back to Shopping</button>
+                <button class="btn-lg btn-checkout">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
